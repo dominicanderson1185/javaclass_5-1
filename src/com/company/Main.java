@@ -1,22 +1,22 @@
 package com.company;
 
 import java.util.Scanner;
-import java.util.ArrayList;
-import java.util.*;
 
 public class Main {
 
     public static void main(String[] args) {
 
 //Main function calling function to get started.
-Excetionfunciton();
+Exacerbation();
+
 
     }
 
-static void Excetionfunciton(){
+static void Exacerbation(){
     Scanner theObj = new Scanner(System.in);
     int number1;
     int number2;
+
 //Do while should run excluding all non numbers giving people the opportunity to keep trying until a positive real number is given
 
 
