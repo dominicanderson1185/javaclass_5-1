@@ -1,10 +1,13 @@
 package com.company;
 
+import org.junit.Before;
 import org.testng.annotations.Test;
 
 import static org.testng.AssertJUnit.*;
 
 public class MainTestFix {
+
+
 
 	@Test
 	void getWrong(){
@@ -15,7 +18,7 @@ public class MainTestFix {
 	@Test
 	void getRight(){
 		Main t = new Main("robert","west Jordan","black",34);
-		assertTrue("Is this wrong but right?",t.getAge() < 12);
+		assertTrue("Is this wrong but right?",t.getAge() > 12);
 
 	}
 	@Test
@@ -32,10 +35,10 @@ assertNotNull("This is just seeing if there is nothing in the first part of the 
 	}
 
 	@Test
+	@Before
 	void getNull(){
-		Main t = new Main("danny","west Jordan","blue",74);
-		assertNull(t.getName(), "t");
-	}
+		Main x = new Main("","","",null);
+		assertNull(x);	}
 	@Test
 	void assertTest(){
 		Main t = new Main("danny","west Jordan","blue",74);
@@ -51,14 +54,12 @@ assertNotNull("This is just seeing if there is nothing in the first part of the 
 
 	}
 
-@Test
-	void assertArrayEqualTest(){
-		assertArrayEquals(new int[]{6,2,3},new int[]{1,2,3});
-}
+
 	@Test
 	void assertArrayEqualTestWorks(){
 		assertArrayEquals(new int[]{6,2,3},new int[]{6,2,3});
 	}
+
 
 
 

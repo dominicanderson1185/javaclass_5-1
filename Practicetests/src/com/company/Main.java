@@ -16,6 +16,8 @@ public class Main {
         this.age = age;
     }
 
+
+
     public String getCity() {
         return city;
     }
@@ -33,21 +35,4 @@ public class Main {
     }
 
 
-
-   /* private Integer id_code;
-    private String first_name;
-    public theArray(Integer id_code, String first_name){
-        this.id_code = id_code;
-        this.first_name = first_name;
-    }
-
-
-    public String getFirst_name() {
-        return first_name;
-    }
-
-    public Integer getId_code(){
-        return id_code;
-    }
-*/
 }
