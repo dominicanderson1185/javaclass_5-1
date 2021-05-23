@@ -37,8 +37,8 @@ assertNotNull("This is just seeing if there is nothing in the first part of the 
 	@Test
 	@Before
 	void getNull(){
-		Main x = new Main("","","",null);
-		assertNull(x);	}
+		Main x = new Main(null,"","",null);
+		assertNull(x.getName());	}
 	@Test
 	void assertTest(){
 		Main t = new Main("danny","west Jordan","blue",74);
