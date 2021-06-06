@@ -11,6 +11,6 @@ class exacerbationTest {
 	@org.junit.jupiter.api.Test
 	void exacerbation() {
 		Exacerbation test = new Exacerbation();
-		int result = test
+		int result = test;
 	}
 }

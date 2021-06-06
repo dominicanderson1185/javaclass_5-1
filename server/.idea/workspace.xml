@@ -10,28 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc789719-38c6-403d-a76e-e05c32b09a5c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../j_server/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../j_server/src/main/resources/http.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webserver-run/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webserver-run/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webserver-run/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webserver-run/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webserver-run/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webserver-run/src/com/company/Json_object.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webserver-run/src/com/company/json_object_get.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webserver-run/src/com/company/server_created.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webserver-run/webserver-run.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../j_server/src/main/java/Java_Json.java" beforeDir="false" afterPath="$PROJECT_DIR$/../j_server/src/main/java/Java_Json.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../j_server/target/classes/Java_Json.class" beforeDir="false" afterPath="$PROJECT_DIR$/../j_server/target/classes/Java_Json.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../j_server/target/j_server-1.0-SNAPSHOT/WEB-INF/classes/Java_Json.class" beforeDir="false" afterPath="$PROJECT_DIR$/../j_server/target/j_server-1.0-SNAPSHOT/WEB-INF/classes/Java_Json.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/server/com/company/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/server.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/com/company/exacerbationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/com/company/exacerbationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +32,10 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.applicationServers" />
   </component>
   <component name="RunManager">
@@ -103,6 +87,7 @@
       <option name="presentableId" value="Default" />
       <updated>1621102210334</updated>
       <workItem from="1621102216191" duration="88000" />
+      <workItem from="1622835229385" duration="660000" />
     </task>
     <servers />
   </component>
