@@ -8,6 +8,8 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
+import static javax.swing.JOptionPane.showMessageDialog;
+
 @WebServlet("/Login")
 public class login extends HttpServlet {
 
@@ -19,6 +21,7 @@ public class login extends HttpServlet {
 					response.sendRedirect("Hellofriend.jsp");
 				}else{
 					response.sendRedirect("index.jsp");
+showMessageDialog(null, "Username or password is incorrect.Please try again. ");
 				}
 	}
 

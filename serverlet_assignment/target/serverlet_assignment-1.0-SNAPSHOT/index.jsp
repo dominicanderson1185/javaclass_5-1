@@ -3,14 +3,13 @@
 <html>
 <head>
     <title>JSB Login</title>
-</head>
-<body>
+</head>ee
+<body style="align-content: center">
 </h1>
 <form action ="Login" method="post">
 Enter username: <input type="text" name="username" required><br><br>Enter password: <input type="text" name="password" required><br>
     <input type ="submit" value="login">
 </form>
 <br/>
-<!-- <a href="hello-servlet">Hello Servlet</a> -->
 </body>
 </html>
