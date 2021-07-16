@@ -7,24 +7,19 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
-
+import Hibermodel.hi_mod_ext;
 @Entity
-@Table(name = "users")
+@Table(name = "new_table")
 
 public class hi_model implements Serializable {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
-	private int id;
-
-
-
 	@Column(name = "user_name")
 	private String username;
 
 	@Column(name = "password")
 	private String password;
-
 
 	public String getUsername() {
 		return username;

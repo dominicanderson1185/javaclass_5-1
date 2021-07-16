@@ -1,7 +1,6 @@
 package Hibermodel;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
-
 import hib_user.hi_model;
 import  hiber_conf.hibernatecon;
 
@@ -34,8 +33,7 @@ public class hibernatefunct{
 			// start a transaction
 			transaction = session.beginTransaction();
 			// get an user object
-			user = (hi_model) session.createQuery("FROM hi_model U WHERE U.username = :userName").setParameter("userName", userName)
-					              .uniqueResult();
+			user = (hi_model) session.createQuery("FROM hi_model U WHERE U.username = :userName").setParameter("userName", userName).uniqueResult();
 
 			if (user != null && user.getPassword().equals(password)) {
 				return true;

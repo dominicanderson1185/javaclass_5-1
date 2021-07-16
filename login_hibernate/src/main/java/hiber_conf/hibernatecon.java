@@ -17,7 +17,7 @@ public class hibernatecon {
 				Configuration configuration = new Configuration();
 
 				Properties settings = new Properties();
-				settings.put(Environment.URL, "jdbc:mysql://localhost:3306/log_in_D?useSSL=false");
+				settings.put(Environment.URL, "jdbc:mysql://localhost:3306/log_in_D");
 				settings.put(Environment.USER, "root");
 				settings.put(Environment.PASS, "Miagreen12313");
 				settings.put(Environment.DIALECT, "org.hibernate.dialect.MySQL5Dialect");
