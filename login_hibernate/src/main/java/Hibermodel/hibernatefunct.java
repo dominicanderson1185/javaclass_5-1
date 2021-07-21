@@ -18,10 +18,10 @@ public class hibernatefunct {
 			transaction = session.beginTransaction();
 			//user = (hi_model) session.createQuery("select user_name  FROM new_table; ").setParameter("user_name", user_name).uniqueResult();
 
-			/*if (user != null && user.getPassword().equals(password)) {
+			if (user != null && user.getPassword().equals(password)) {
 				return true;
-			}*/
-			if (user_name = user.getUsername() && password == user.getPassword()){return true;}
+			}
+			//if (user_name = user.getUsername() && password == user.getPassword()){return true;}
 			transaction.commit();
 		} catch (Exception e) {
 			if (transaction != null) {
