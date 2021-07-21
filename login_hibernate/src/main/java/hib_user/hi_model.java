@@ -7,7 +7,6 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
-import Hibermodel.hi_mod_ext;
 @Entity
 @Table(name = "new_table")
 

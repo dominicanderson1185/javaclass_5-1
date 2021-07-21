@@ -3,14 +3,14 @@
 <html>
 <head>
     <meta charset="ISO-8859-1">
-    <title>Insert title here</title>
+    <title>Your Log In </title>
 </head>
 <body>
 
 <div class="container col-md-8 col-md-offset-3" style="overflow: auto">
     <h1>Login Form</h1>
 
-    <form action="/index" method="post">
+    <form action= "<%=request.getContextPath()%>/index%" method="post">
         <div class="login-form">
             <label>User Name:</label> <input  type="text" name="username" placeholder="Username"  required>
         </div>

@@ -1,6 +1,5 @@
 package login_con;
 import java.io.IOException;
-
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -15,15 +14,11 @@ public class log_in {
 	@WebServlet("/index")
 	public class LoginController extends HttpServlet {
 		private hibernatefunct login;
-/*
-		public void init() {
-			login = new hibernatefunct();
-		}*/
+public void fixit(){
+	login = new hibernatefunct();
+}
 
-		protected void doGet(HttpServletRequest request, HttpServletResponse response)
-				throws ServletException, IOException {
-			response.sendRedirect("index.jsp");
-		}
+
 
 		protected void doPost(HttpServletRequest request, HttpServletResponse response)
 				throws ServletException, IOException {
@@ -41,7 +36,8 @@ public class log_in {
 			String password = request.getParameter("password");
 
 			if (login.validate(username, password)) {
-				RequestDispatcher dispatcher = request.getRequestDispatcher("login-success.jsp");
+				RequestDispatcher dispatcher;
+				dispatcher = request.getRequestDispatcher("login_success.jsp");
 				dispatcher.forward(request, response);
 			} else {
 				throw new Exception("Login not successful..");
